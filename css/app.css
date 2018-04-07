@@ -112,9 +112,9 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background: rgba(46, 61, 73, 0.8);
+    background: rgba(40, 60, 70, 0.8);
     border-radius: 10px;
-    box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+    box-shadow: 12px 15px 20px 0 rgba(40, 60, 70, 0.5);
 }
 
 .deck .card-container {
@@ -128,7 +128,7 @@ h1 {
     color: #fff;
     border-radius: 6px;
     align-items: center;
-    box-shadow: 5px 5px 10px 0 rgba(46, 61, 73, 0.8);
+    box-shadow: 5px 5px 10px 0 rgba(30, 60, 70, 0.8);
     perspective: 800px;
     cursor: pointer;
 }
@@ -158,7 +158,7 @@ h1 {
 }
 
 .card .back {
-    background: #bebe;
+    background: #fff;
     transform: rotateY(180deg);
 }
 
@@ -169,7 +169,7 @@ h1 {
 }
 
 .flipped {
-    transform: rotateY(180deg);
+    transform: rotateY(179.99deg);
 }
 
 .matched {
@@ -186,23 +186,23 @@ h1 {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(27, 110, 128, 0.9);
-    color: #175e6d;
-    text-align: center;
+    background-color: rgba(40, 40, 60, 0.8);
+    color: #fff;
 }
 
 .modal-content {
-    margin: 20% auto;
+    margin: 10% auto;
     padding: 40px;
     width: 50%;
     background-color: #fff;
     border-radius: 8px;
     border: 1px solid #0b2f36;
     box-shadow: 7px 7px 15px 0 rgba(0, 0, 0, 0.3), 0 7px 25px 0 rgba(0, 0, 0, 0.2);
+    background: url('../img/john_cool.jpg');
 }
 
 .modal .reload-button {
-    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 12px;
     width: 120px;
     background-color: #1fb9d6;
