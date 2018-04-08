@@ -2,8 +2,17 @@
 
 ## Table of Contents
 
+* <a href="https://github.com/ssallexx/JCSMG/blob/master/README.md#description">Description</a>
+* <a href="https://github.com/ssallexx/JCSMG/blob/master/README.md#How to play">How to play</a>
 * [Instructions](#instructions)
 * [Contributing](#contributing)
+
+## Description
+This Memory Game Project is dedicated to <a href="https://johnscrazysocks.com">John's Crazy Socks</a>. It is a father-son venture inspired by John Lee Cronin, a young man with Down syndrome.
+
+## How to play
+
+Clone this repository and open index.html in the browser OR go to https://ssallexx.github.io/JCSMG/
 
 ## Instructions
 
