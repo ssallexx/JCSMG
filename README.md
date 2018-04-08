@@ -3,7 +3,7 @@
 ## Table of Contents
 
 * <a href="https://github.com/ssallexx/JCSMG/blob/master/README.md#description">Description</a>
-* <a href="https://github.com/ssallexx/JCSMG/blob/master/README.md#How to play">How to play</a>
+* <a href="https://github.com/ssallexx/JCSMG/blob/master/README.md#How%20to%20play">How to play</a>
 * [Instructions](#instructions)
 * [Contributing](#contributing)
 
