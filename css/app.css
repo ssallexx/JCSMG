@@ -40,7 +40,7 @@ h1 {
 .reload-button {
     padding: 8px;
     width: 100px;
-    background-color: #fb4f44;
+    background-color: #92c73e;
     color: #fff;
     border-radius: 8px;
     font-size: 0.8em;
@@ -203,9 +203,10 @@ h1 {
 
 .modal .reload-button {
     margin-bottom: 20px;
+    margin-top: 20px;
     padding: 12px;
     width: 120px;
-    background-color: #1fb9d6;
+    background-color: #92c73e;
 }
 
 modal .reload-button:hover {
@@ -213,9 +214,9 @@ modal .reload-button:hover {
 }
 
 .modal .reload-button:active {
-    background-color: #1890a6;
+    background-color: #92c73e;
     box-shadow: 0 1px #ddd;
-    transform: translateY(4px);
+    transform: translateY(6px);
 }
 
 .modal-content .fa-thumbs-o-up {
