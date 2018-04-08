@@ -198,7 +198,7 @@ function handleCardClick(event) {
     clickedFigure.removeEventListener('click', handleCardClick);
     setTimeout(function () {
         clickedFigure.addEventListener('click', handleCardClick);
-    }, 600);
+    }, 400);
 
     if (flippedCards.length === 2) {
         moves = moves + 1;
@@ -214,7 +214,7 @@ function handleCardClick(event) {
                 // adds style for matched cards
                 previousCard.lastChild.classList.add('matched');
                 parentCard.lastChild.classList.add('matched');
-            }, 1000);
+            }, 800);
             // stores id's of matched cards
             matchedCards.push(figureTwo);
             // passes matching id to function displaying info about flag's owner
@@ -224,7 +224,7 @@ function handleCardClick(event) {
                 // flips not matched cards face down
                 previousCard.classList.remove('flipped');
                 parentCard.classList.remove('flipped');
-            }, 600);
+            }, 400);
         }
     }
 }
